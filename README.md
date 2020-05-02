@@ -26,11 +26,11 @@ spring.data.mongodb.database= <YourDataBaseName>
 
 You can run the application by using 
 ```
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 Alternatively, you can build the JAR file with
 ```
-./mvnw clean package
+mvn clean package
 ``` 
 and then run the JAR file, as follows:
 ```
@@ -39,7 +39,7 @@ java -jar target/<generated-jar-file>.jar
 ## Testing the application
 Open your Web Browser or a REST client app like (Postman, Advanced REST Client, etc.) and type :
 ```
-localhost:8080/client
+http://localhost:8080/client
 ```
 #### The app defines the following CRUD APIs.
 ```
